@@ -1,0 +1,12 @@
+function(){
+var ContactForm=jQuery('[class="js__popup-form"]'); 
+if (ContactForm.find('[name="name"]').val().length>0
+&& ContactForm.find('[name="phone"]').val().length>0) 
+{ 
+return true; 
+} 
+else 
+{ 
+return false; 
+} 
+}
